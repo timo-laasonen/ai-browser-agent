@@ -5,15 +5,17 @@ A modular Python application for scraping and processing web content using Playw
 ## Project Structure
 
 ```
-├── main.py              # Main application entry point
-├── models.py            # Pydantic data models
-├── web_scraper.py       # Web scraping functionality
-├── llm_processor.py     # LLM processing logic
-├── scraping_service.py  # Main orchestration service
-├── config.py            # Configuration settings
-├── helpers.py           # Helper functions (external dependency)
-├── requirements.txt     # Python dependencies
-└── README.md           # This file
+ai-browser-agent/
+├── src/
+│ ├── main.py # Main application entry point
+│ ├── models.py # Pydantic data models
+│ ├── web_scraper.py # Web scraping functionality
+│ ├── llm_processor.py # LLM processing logic
+│ ├── scraping_service.py # Main orchestration service
+│ ├── config.py # Configuration settings
+│ └── helpers.py # Helper functions (external dependency)
+├── requirements.txt # Python dependencies
+└── README.md # This file
 ```
 
 ## Components
