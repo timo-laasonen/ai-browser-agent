@@ -2,6 +2,7 @@
 Configuration settings for the web scraping application.
 """
 import os
+import logging
 
 # URLs
 TARGET_URL = "https://www.deeplearning.ai/courses"
@@ -34,3 +35,10 @@ BROWSER_ARGS = [
 
 # Timeouts
 PAGE_WAIT_TIMEOUT = 2000  # milliseconds
+
+# Logging Configuration
+LOG_LEVEL = logging.INFO
+LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Configure logging
+logging.basicConfig(level=LOG_LEVEL, format=LOG_FORMAT)
